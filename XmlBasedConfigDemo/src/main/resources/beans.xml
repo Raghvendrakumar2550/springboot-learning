@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean id="paymentService"-->
+<!--          class="in.Strikes.Payment.PaymentService"-->
+<!--          name="paymentservice1">-->
+<!--        <constructor-arg index="0" value="UPI"/>-->
+<!--        <constructor-arg index="1" value="3"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="orderService"-->
+<!--          class="in.Strikes.OrderService"-->
+<!--          name="orderService1">-->
+<!--        <property name="PaymentserviceBean" ref="paymentService"/>-->
+
+<!--    </bean>-->
+
+<!--    <bean id="orderService"-->
+<!--          class="in.Strikes.OrderService"-->
+<!--          name="orderService1">-->
+
+<!--        <constructor-arg ref="paymentService"/>-->
+
+<!--    </bean>-->
+
+    <bean id="upiPaymentService" class="in.Strikes.Payment.UpiPaymentService"></bean>
+
+<!--    <bean id="cardPaymentService" class="in.Strikes.Payment.CardPaymentService"></bean>-->
+
+<!--    <bean id="orderService" class="in.Strikes.OrderService">-->
+<!--        <constructor-arg ref="cardPaymentService"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="userService"-->
+<!--          class="in.Strikes.UserService">-->
+<!--        <constructor-arg name="usernames">-->
+<!--            <list>-->
+<!--                <value>Aditya</value>-->
+<!--                <value>Raghav</value>-->
+<!--                <value>Aditya</value>-->
+<!--            </list>-->
+<!--        </constructor-arg>-->
+<!--    </bean>-->
+
+</beans>
