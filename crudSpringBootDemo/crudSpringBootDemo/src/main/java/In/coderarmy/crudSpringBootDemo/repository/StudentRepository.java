@@ -9,7 +9,7 @@ import java.sql.SQLOutput;
 import java.util.List;
 import java.util.Optional;
 
-@Repository
+//@Repository
 public interface StudentRepository extends JpaRepository<Student, Long> {
     Optional<Student> findByIdAndDeletedIsFalse(Long id);
 
