@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>In.coderarmy</groupId>
-	<artifactId>crudSpringBootDemo</artifactId>
+	<artifactId>CrudSpringBootDemoApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description/>
