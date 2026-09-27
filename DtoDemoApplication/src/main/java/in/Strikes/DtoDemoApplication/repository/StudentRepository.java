@@ -12,5 +12,7 @@ public interface StudentRepository extends JpaRepository<Student, Long> {
 
     List<Student> findByDeletedIsFalse();
 
+    Boolean existsByEmail(String emailid);
+
     //findBy + fieldName + condition
 }
